@@ -1,0 +1,569 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+	  
+	  
+	<title>answer the questions</title>  
+	  
+	  <style>
+	
+		  body{
+			  
+			  background-color: chocolate;
+		  }
+	
+		  h1{
+			  text-align: center;
+			  color:white;
+		  }
+		  h2{
+			  color:darkred;
+			  background-color: greenyellow;
+			  text-align: center;
+		  }
+		  label{
+			  font-size: 60px;
+		  }
+		  
+		  #next1{
+			   position: absolute;
+			  left:30%;
+			  background-color: darkgreen;
+			  font-size: 25px;
+			  
+		  }
+		    #next2{
+				 position: absolute;
+			  margin-left:30%;
+			  background-color: darkgreen;
+			  font-size: 25px;
+			  
+		  }
+		  #submit{
+			  position: absolute;
+			  margin-left:30%;
+			  background-color: darkred;
+			  font-size: 25px;
+			  
+		  }
+		    #back1{
+				position: absolute;
+			  left:15%;
+			  background-color: darkgreen;
+			  font-size: 25px;
+			  
+		  }
+		  #back2{
+			  position: absolute;
+			  margin-left:10%;
+			  background-color: darkgreen;
+			  font-size: 25px;
+			  
+		  }
+		    #again{
+				position: absolute;
+			  margin-left:65%;
+			  background-color: darkred;
+			  font-size: 25px;
+			  
+		  }
+		  li{
+			  
+		  }
+		  ul{
+			  font-size: 30px;
+		  }
+	
+		  #sco{
+			  font-size: 35px;
+			  color:green;
+			  
+			  background-color: aquamarine;
+			   position: relative;
+			  text-align: center;
+			  margin-top: -15px;
+			 
+		  }
+	
+	</style>
+	  
+	  
+	  
+	  </head>
+<body>
+	
+	<h1>choose the correct answer</h1>
+	
+	
+	
+	<!-- first question -->
+	
+	<div id="d1">
+	
+	
+	<h2> what is the longest time that a person can stay without sleeping ? </h2>
+	
+	
+	<br>
+		
+		
+		
+		<input  name="abc" id="r1" type="radio"> <label for="r1"> 3  </label>
+		
+		<br>
+		<br>
+		
+		<input name="abc" id="r2" type="radio"> <label for="r2"> 9  </label>
+		
+		<br>
+		<br>
+		
+		<input name="abc" id="r3" type="radio"> <label for="r3"> 6  </label>
+		
+		<br>
+		<br>
+		
+		<input  name="abc" id="r4" type="radio"> <label for="r4"> 11  </label> <!-- the write answer -->
+		
+		
+		
+	<br>
+		<br>
+		<br>
+		
+	
+	
+	
+	
+	<button onclick="quest('d2' , 'd1' , 'd3', 'd4' ,'d5');" id="next1"> next  </button> <!-- next or previous question -->
+	
+	
+	
+	</div>
+	
+	
+	
+	
+	
+	<!-- second question -->
+	
+	
+	<div style="display:none;" id="d2">
+	
+	
+	<h2> what's the richest man in the world ? </h2>
+	
+	
+	<br>
+		
+		
+		
+		
+			
+		<input name="abcd" id="r10" type="radio"> <label for="r10"> Bill Gates  </label>
+		
+		<br>
+		<br>
+		
+		<input   name="abcd" id="r20" type="radio"> <label for="r20"> Jeff Bezos  </label> <!-- the write answer -->
+		
+		<br>
+		<br>
+		
+		<input name="abcd" id="r30" type="radio"> <label for="r30"> Warren Buffett  </label>
+		
+		<br>
+		<br>
+		
+		<input name="abcd" id="r40" type="radio"> <label for="r40"> Mark Zuckerberg  </label> 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	<br>
+		<br>
+		<br>
+		
+	
+	
+	
+	
+	<button onclick="quest('d3' , 'd1' , 'd2' ,'d4' ,'d5');" id="next2"> next  </button> <!-- next  question -->
+		
+		<button onclick="quest('d1' , 'd2' , 'd3' ,'d4' ,'d5');" id="back1"> back  </button> <!--  previous question -->
+		
+		
+	
+	
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- third question -->
+	
+	
+	<div style="display:none;" id="d3">
+	
+	
+	<h2> what's the team of football who won the world cup in 2004 ? </h2>
+		
+	
+	
+		
+		
+			<input type="radio"  name="abce" id="r100" > <label for="r100"> Spain  </label>  <!-- the write answer -->
+		
+		<br>
+		<br>
+		
+		<input name="abce" id="r200" type="radio"> <label for="r200"> Germany  </label>
+		
+		<br>
+		<br>
+		
+		<input name="abce" id="r300" type="radio"> <label for="r300"> Argentine  </label>
+		
+		<br>
+		<br>
+		
+		<input name="abce" id="r400" type="radio"> <label for="r400"> Belgium  </label> 
+		
+		
+		
+		
+
+	
+	<br>
+		<br>
+		<br>
+		
+
+	
+	
+	
+<button onclick="quest('d4' , 'd1' , 'd2' ,'d3' ,'d5');" id="next2"> next  </button> <!-- next  question -->
+		
+		<button onclick="quest('d2' , 'd1' , 'd3' ,'d4' ,'d5');" id="back1"> back  </button> <!--  previous question -->
+		
+		
+		
+	
+	
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- fourth question -->
+	
+	
+	<div style="display:none;" id="d4">
+	
+	
+	<h2> what's the smartest man in the world </h2>
+		
+	
+	
+		
+		
+			<input type="radio"  name="abcee" id="r1000" > <label for="r1000"> Leonardo da Vinci  </label>  
+		
+		<br>
+		<br>
+		
+		<input name="abcee" id="r2000" type="radio"> <label for="r2000"> Isaac Newton </label>
+		
+		<br>
+		<br>
+		
+		<input name="abcee" id="r3000" type="radio"> <label for="r3000"> Albert Einstein  </label> <!-- the write answer -->
+		
+		<br>
+		<br>
+		
+		<input name="abcee" id="r4000" type="radio"> <label for="r4000"> Kim Ung-Yong </label> 
+		
+		
+		
+		
+
+	
+	<br>
+		<br>
+		<br>
+		
+		
+		
+		
+			
+<button onclick="quest('d5' , 'd1' , 'd2' ,'d3' ,'d4');" id="next2"> next  </button> <!-- next  question -->
+		
+		<button onclick="quest('d3' , 'd1' , 'd2' ,'d4' ,'d5');" id="back1"> back  </button> <!--  previous question -->
+		
+
+	
+	
+	
+	
+		
+		
+		
+	
+	
+	
+	</div>
+	
+	
+	
+	
+	
+	
+		<!-- fourth question -->
+	
+	
+	<div style="display:none;" id="d5">
+	
+	
+	<h2> what's the poorest country in the world ? </h2>
+		<h3 id="sco"></h3>
+	
+	
+		
+		
+			<input type="radio"  name="ab" id="r10000" > <label for="r10000"> Democratic Republic of Congo  </label>  <!-- the write answer -->
+		
+		<br>
+		<br>
+		
+		<input name="ab" id="r20000" type="radio"> <label for="r20000"> Tajikistan  </label>
+		
+		<br>
+		<br>
+		
+		<input name="ab" id="r30000" type="radio"> <label for="r30000"> Mozambique  </label>
+		
+		<br>
+		<br>
+		
+		<input name="ab" id="r40000" type="radio"> <label for="r40000"> Uganda  </label> 
+		
+		
+		
+		
+
+	
+	<br>
+		<br>
+		<br>
+		
+		
+		
+		
+			
+
+
+	
+	
+	
+	<button  id="submit"> submit </button> <!-- next  question -->
+		
+		<button onclick="quest('d4' , 'd1' , 'd2' ,'d3' ,'d5');" id="back2"> back  </button> <!--  previous question -->
+		
+		 <button onclick="playagain();" style="display: none;" id="again">play again ?</button>   
+		
+		
+		
+	
+	
+	
+	</div>
+	
+	
+	
+
+	
+	<script>
+		
+		// r4 && r20 && r100 && r3000 && r10000 are the right answers
+		
+		
+/*	var win1 = checkkk1();
+		var win2 = checkkk2();
+		var win3 = checkkk3();
+		
+		*/
+		
+		
+	
+		
+		
+	
+	function playagain() {
+		
+		window.location.href="questions game3.html";
+	}
+	
+		
+		
+		
+	
+	
+	
+	
+	function quest(id10 , id20 , id30 ,id40 ,id50) {
+		
+		document.getElementById(id10).style.display="block";
+		document.getElementById(id20).style.display="none";
+		document.getElementById(id30).style.display="none";
+		
+		document.getElementById(id40).style.display="none";
+		document.getElementById(id50).style.display="none";
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	document.getElementById("submit").addEventListener("click" , score);
+		
+		
+			var win1 = document.getElementById("r4");
+		var win2 = document.getElementById("r20");
+		var win3 = document.getElementById("r100");
+		
+		var win4 = document.getElementById("r3000");
+		var win5 = document.getElementById("r10000");
+		
+		
+		
+		
+		var scoo = [0];
+		
+		// r4 && r20 && r100 && r3000 && r10000 are the right answers
+		
+		
+		function score() {
+			
+
+			window.submit.style.display="none";
+			
+			window.again.style.display="block";
+			window.back2.style.display="none";
+			
+			
+			
+			if(win1.checked){
+				
+				
+				
+				window.sco.innerHTML="score:" + scoo[0]++ + "/5" ;
+			}
+			
+			 if(win2.checked){  
+			
+				 
+				window.sco.innerHTML="score:" + scoo[0]++ + "/5" ;
+			}
+			
+			 if(win3.checked){
+				
+				
+				window.sco.innerHTML="score:" + scoo[0]++ + "/5" ;
+			}
+			
+			 if(win4.checked){
+				 
+				 
+				
+				window.sco.innerHTML="score:" + scoo[0]++  + "/5" ;
+			}
+			
+			 if(win5.checked){
+				 
+				
+				
+				window.sco.innerHTML="score:" + scoo[0]++  + "/5" ;
+			} 
+			
+			
+						
+			window.sco.innerHTML="score:" + scoo[0] + "/5";
+		}
+			
+			
+		
+	
+	</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
